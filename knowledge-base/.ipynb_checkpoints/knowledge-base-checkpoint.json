@@ -1,0 +1,123 @@
+{
+  "bot_objective": "Assist customers in choosing the right health insurance service by asking 2–3 multiple-choice questions and routing them to the correct agent.",
+
+  "greeting": "Hello! This is Pristine Health Insurance calling about your health insurance needs. I’ll just ask you a few quick questions to connect you to the right agent. Please press the number on your keypad.",
+
+  "questions": {
+    "customer_type": {
+      "text": "Please select your type:",
+      "options": {
+        "1": {
+          "label": "New Customer",
+          "follow_up": {
+            "coverage_type": {
+              "text": "What kind of coverage are you looking for?",
+              "options": {
+                "1": {
+                  "label": "Individual Health Plan",
+                  "follow_up": {
+                    "priority_level": {
+                      "text": "How urgent is your request?",
+                      "options": {
+                        "1": "Immediate Assistance",
+                        "2": "Within this week",
+                        "3": "Just exploring options",
+                        "4": "Other"
+                      }
+                    }
+                  }
+                },
+                "2": {
+                  "label": "Family Health Plan",
+                  "follow_up": {
+                    "priority_level": {
+                      "text": "How urgent is your request?",
+                      "options": {
+                        "1": "Immediate Assistance",
+                        "2": "Within this week",
+                        "3": "Just exploring options",
+                        "4": "Other"
+                      }
+                    }
+                  }
+                },
+                "3": {
+                  "label": "Senior Citizen Plan",
+                  "follow_up": {
+                    "priority_level": {
+                      "text": "How urgent is your request?",
+                      "options": {
+                        "1": "Immediate Assistance",
+                        "2": "Within this week",
+                        "3": "Just exploring options",
+                        "4": "Other"
+                      }
+                    }
+                  }
+                },
+                "4": {
+                  "label": "Other",
+                  "follow_up": {
+                    "priority_level": {
+                      "text": "How urgent is your request?",
+                      "options": {
+                        "1": "Immediate Assistance",
+                        "2": "Within this week",
+                        "3": "Just exploring options",
+                        "4": "Other"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "2": {
+          "label": "Renew an existing policy",
+          "follow_up": {
+            "renewal_priority": {
+              "text": "How urgent is your request?",
+              "options": {
+                "1": "Immediate Assistance",
+                "2": "Within this week",
+                "3": "Just exploring options",
+                "4": "Other"
+              }
+            }
+          }
+        },
+        "3": {
+          "label": "Claim or Complaint",
+          "follow_up": {
+            "claim_priority": {
+              "text": "How urgent is your request?",
+              "options": {
+                "1": "Immediate Assistance",
+                "2": "Within this week",
+                "3": "Just exploring options",
+                "4": "Other"
+              }
+            }
+          }
+        },
+        "4": {
+          "label": "Other",
+          "follow_up": {
+            "other_priority": {
+              "text": "How urgent is your request?",
+              "options": {
+                "1": "Immediate Assistance",
+                "2": "Within this week",
+                "3": "Just exploring options",
+                "4": "Other"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "final_message": "Thank you! Please hold while I connect you to the right health insurance specialist."
+}
